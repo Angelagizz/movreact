@@ -18,6 +18,7 @@ const CustomPagination = ({setPage, numOfPages = 10}) => {
     return (
         <div
             style={{
+                backgroundColor: "#fe024e",
                 width: "100%",
                 display: "flex",
                 justifyContent: "center",
