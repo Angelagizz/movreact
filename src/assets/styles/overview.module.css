@@ -1,0 +1,44 @@
+.overview {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.overview__synopsis {
+    grid-column: 2/12;
+    margin-top: 1vh;
+    margin-right: 1050px;
+    margin-left: 130px;
+    width: 100%;
+}
+.synopsis__title {
+    margin-bottom: -2vh;
+    font-weight: bold;
+    font-size: 30px;
+}
+.synopsis__content {
+    border-top: 0.2vh solid rgb(187, 184, 184);
+    font-size: 18px;
+}
+.overview__movie__info {
+    grid-column: 2/12;
+    margin-bottom: 1.8vh;
+    margin-top: 8vh;
+    margin-right: 1050px;
+    margin-left: 130px;
+    width: 100%;
+}
+.movie__info__title {
+    margin-bottom: -2vh;
+    font-weight: bold;
+    font-size: 30px;
+}
+.movie__info__content {
+    border-top: 0.2vh solid rgb(187, 184, 184);
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.bold {
+    font-weight: bold;
+    text-align: right;
+}

@@ -1,0 +1,22 @@
+.profile {
+    margin-top: 18px;
+    margin-left: 50px;
+}
+.profile__content > img {
+    border-radius: 50%;
+}
+.content__modal {
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    margin-left: 1200px;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+.content__modal > p {
+    padding-left: 15px;
+}
+.content__modal > button {
+    border: none;
+    margin-left: 120px;
+}

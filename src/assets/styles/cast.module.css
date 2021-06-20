@@ -1,0 +1,23 @@
+.content__characters1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px;
+    
+}
+.nama_cast {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-color: #fe024e;
+    box-shadow: 0px 0px 8px 5px #888888;
+}
+.foto_cast {
+    box-shadow: 8px 8px 8px 8px #888888;
+}
+.content__character2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px;
+}

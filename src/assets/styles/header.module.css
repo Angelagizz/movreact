@@ -1,0 +1,180 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.header__brand {
+    grid-column: 2/5;
+    margin-top: -2.5vh;
+    display: flex;
+}
+.header__container {
+    display: flex;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.header__container > h4 {
+    font-size: 3.5vh;
+    margin-left: 1vw;
+    margin-top: 15px;
+    color: #fe024e;
+}
+.header__search {
+    grid-column: 5/10;
+    margin-left: 30px;
+}
+.header__search__input {
+    height: 4vh;
+    width: 35vw;
+    margin-top: 2.5vh;
+    padding-left: 0.7vw;
+}
+
+.wrapper > img {
+    border-radius: 50%;
+    margin-left: 200px;
+    margin-top: 35px;
+}
+/* .dd_menu {
+    position: absolute;
+	top: 80px;
+	left: 0;
+	display: none;
+}
+.dd_menu ul li a{
+	width: 180px;
+	background: #9972bf;
+	text-align: left;	
+	padding: 20px;
+}
+.dd_menu:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    border: 15px solid;
+    border-color: transparent transparent #9972bf transparent;
+}
+.dd_submenu:before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -30px;
+    z-index: 1;
+    border: 15px solid;
+    border-color: transparent #9972bf transparent transparent;
+}
+
+.dd_menu_a.active + .dd_submenu{
+	display: block;
+} */
+.user__btn {
+    margin-left: 300px;
+}
+.ReactModal__Overlay > {
+    
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .pagar {
+    position: absolute;
+  }
+  .form {
+    margin: auto;
+    margin-left: 85px;
+    padding-left: 25px;
+  }
+  
+  .form > ul li {
+    list-style: none;
+  }
+  
+  .form > h3 {
+    text-align: center;
+    margin-left: -70px;
+    color: #fe024e;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .form > p {
+    text-align: center;
+    margin-left: -100px;
+  }
+  
+  .form > h6 {
+    color: black;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .form > input {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 20px;
+  }
+  .btn_signupfa {
+      margin-top: 10px;
+  }
+  .btn_signupfa {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fe024e;
+    font-weight: bold;
+    color: white;
+    border-color: whitesmoke;
+    box-shadow: whitesmoke;
+    cursor: pointer;
+  }
+  .btn_signinfa {
+    border-style: none;
+    color: #fe024e;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+  }
+  .btn_signinfa:hover {
+    color:#fe024e;
+  }
+  
+  .btn_signinfb {
+    margin-top: 50px;
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fe024e;
+    font-weight: bold;
+    color: white;
+    border-color: whitesmoke;
+    box-shadow: whitesmoke;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .loginButton > p {
+      color: #fe024e;
+      font-size: 20px;
+      font-weight: bold;
+      padding-top: 3px;
+      margin-bottom: 3px;
+  }
+  .loginButton > p:hover {
+      cursor: pointer;
+  }
+  .fullName {
+    color: #fe024e;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 18px;
+  }

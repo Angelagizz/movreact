@@ -1,0 +1,37 @@
+.container {
+    margin-left: 20vh;
+}
+.container__profile {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container__profile > img {
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.container__profile > h4 {
+    margin-top: 35px;
+}
+.text_review {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.text_review > p {
+    margin-left: 80px;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+.star__rating {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10vh;
+    margin-top: -5px;
+    text-align: right;
+}
+.star__rating > p {
+    margin-left: 10px;
+    margin-top: 0;
+    text-align: right;
+}

@@ -1,0 +1,32 @@
+.about__movie {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 2.5vh;
+}
+.about__movie__btn {
+    grid-column: 2/9;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+.button_active {
+    background-color: white;
+    color: black;
+    margin-right: 3vw;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.button_active:hover {
+    background-color:#fe024e;
+}
+.button_inactive {
+    margin-right: 3vw;
+    background-color: #fe024e;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
+.button_inactive:hover {
+    background-color: #fe024e;
+}

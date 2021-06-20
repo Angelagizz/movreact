@@ -1,0 +1,39 @@
+.banner {
+    display: flex;
+}
+.banner__shadow {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin-top: 70px;
+}
+.banner__img {
+    margin-top: 70px;
+}
+.banner__shadow__content {
+    grid-column: 2/10;
+    margin-top: 40px;
+}
+.banner__rating {
+    margin-left: 0.6vw;
+}
+.banner__shadow__content > button {
+    margin-right: 1vw;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.banner__shadow__content > button:hover {
+    background-color: #fe024e;
+    border: none;
+}
